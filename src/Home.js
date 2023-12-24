@@ -30,7 +30,7 @@ const Home = () => {
             <h1>Home</h1>
             <button onClick={handleClick} >click me</button>
            
-            <p>My name is {Name} and my age is {Age}</p>
+            <p>My name is {Name} and my age is {Age}</p>asasasas
         </div>
     );
 }
