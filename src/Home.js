@@ -20,11 +20,16 @@ const Home = () => {
         setName('Rony');
         setAge(30);
     }
-   
+    const resetClick = () => {
+        setName('Rahul');
+        setAge(25);
+    }
+
     return(
         <div className="home">
             <h1>Home</h1>
             <button onClick={handleClick} >click me</button>
+            <button onClick={resetClick}>Reset the value</button>
             <p>My name is {Name} and my age is {Age}</p>
         </div>
     );
